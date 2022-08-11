@@ -13,7 +13,7 @@ const LayOut = styled('div')`
   flex-direction: column;
   margin: auto;
   width: 740px;
-  height: 100vh;
+  height: 100%;
   background-color: white;
   @media screen and (max-width: 740px) {
     width: 100%;
