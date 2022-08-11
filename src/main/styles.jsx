@@ -16,7 +16,7 @@ const LayOut = styled('div')`
   height: 100vh;
   background-color: white;
   @media screen and (max-width: 740px) {
-    width: 95%;
+    width: 100%;
   }
 
 `
