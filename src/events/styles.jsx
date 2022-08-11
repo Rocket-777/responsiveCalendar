@@ -4,10 +4,10 @@ const Container = styled('div')`
   display: flex;
   flex-direction: column;
   width: 100%;
-  
+  height: auto;
   background-color: #f2f2f2;
   overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
+
 `
 
 const CellRow = styled('div')`
