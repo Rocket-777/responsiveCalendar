@@ -7,6 +7,7 @@ const Container = styled('div')`
   
   background-color: #f2f2f2;
   overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 `
 
 const CellRow = styled('div')`
