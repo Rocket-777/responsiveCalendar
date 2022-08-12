@@ -32,9 +32,10 @@
 </head>
 <body>
 <script>
-    let height = window.innerHeight;
-    console.log('height: ' + height)
-    document.body.style.height = `${height}px`;
+    window.onresize = () =>{
+        let height = window.innerHeight;
+        document.body.style.height = `${height}px`;
+    };
 </script>
 <div id="root" style="height: 100%"></div>
 <!--
